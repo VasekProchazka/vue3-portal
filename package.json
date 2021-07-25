@@ -1,6 +1,6 @@
 {
   "name": "vue3-portal",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Portal for Vue 3",
   "main": "./dist/index.common.js",
   "scripts": {
@@ -13,6 +13,11 @@
     "type": "git",
     "url": "https://github.com/VasekProchazka/vue3-portal"
   },
+  "keywords": [
+    "vue3",
+    "portal",
+    "teleport"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
