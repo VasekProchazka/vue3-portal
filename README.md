@@ -1,4 +1,4 @@
-# vue3-mq-lite
+# vue3-portal
 
 Inspired by [portal-vue](https://github.com/LinusBorg/portal-vue)
 
