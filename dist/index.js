@@ -109,7 +109,7 @@ const B = h({
   setup(t, { emit: e }) {
     const n = m("wormhole"), s = y(), i = p(n.transports), a = p(!0), c = () => {
       var d;
-      const l = (d = i.value) == null ? void 0 : d[t.name];
+      const l = ((d = i.value) == null ? void 0 : d[t.name]) || [];
       return t.multiple ? l : l.length === 0 ? [] : [l[l.length - 1]];
     }, r = () => O(c(), t.slotProps), o = () => r().length ? r() : s.default || [], f = () => {
       const l = t.slim && !t.transition;

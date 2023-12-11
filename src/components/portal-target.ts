@@ -37,7 +37,7 @@ export default defineComponent({
     const firstRender = ref(true)
 
     const ownTransports = () => {
-      const transportsValue = transports.value?.[props.name]
+      const transportsValue = transports.value?.[props.name] || []
       if (props.multiple) { return transportsValue }
       return transportsValue.length === 0 ? [] : [transportsValue[transportsValue.length - 1]]
     }
