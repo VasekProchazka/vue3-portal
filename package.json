@@ -2,6 +2,7 @@
   "name": "vue3-portal",
   "version": "2.0.2",
   "description": "Portal for Vue 3",
+  "packageManager": "pnpm",
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
